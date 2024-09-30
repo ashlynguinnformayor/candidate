@@ -35,6 +35,5 @@ h3{
 }
 
 #photoDiv img {
-    max-width: 600px;
-    height: 500px;
+    max-width: 95%;
 }
