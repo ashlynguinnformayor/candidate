@@ -2,7 +2,8 @@
 body{
   font-family: arial;
   margin: 0;
-  padding: 0;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 section{
@@ -14,9 +15,9 @@ section{
 }
 
 .column{
-  border: solid 1px #c7c7c7;
+  border: solid 0px #c7c7c7;
   /* margin: 10px; */
-  padding: 5px;
+  padding: 20px;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis:0;

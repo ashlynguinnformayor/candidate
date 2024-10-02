@@ -1,12 +1,26 @@
 
 #mainH1{
   margin-left: 10px;
+  font-size: 30px;
 }
 
 @font-face {
   font-family: Oswalkd53;
   src:url(../fonts/Oswalk_v53.woff2);
 }
+
+/*Bold Script*/
+@font-face {
+  font-family: AmandaBlack;
+  src:url(../fonts/Ananda-Black.ttf);
+}
+
+/*Lite Script*/
+@font-face {
+  font-family: Cherolina;
+  src:url(../fonts/Cherolina.ttf);
+}
+
 
 h1 {
   font-family: Oswalkd53;
@@ -64,4 +78,51 @@ p {
 
 .support {
   text-transform: none;
+}
+
+#main_menu{
+  text-align: center;
+}
+
+#main_menu a{
+  background-color: #1a2674;
+  color:#fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: -5px;
+  margin-right: 0px;
+}
+
+#main_menu  a:hover{
+  background-color: #313553;
+  color:#fff;
+}
+
+#subline{
+  font-family: AmandaBlack;
+  font-size: 30px;
+  margin-top: -20px;
+  margin-left:45px;
+  color:#a9a9a9;
+}
+
+.btnLink{
+  background-color: #1a2674;
+  color:#fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+#ashlyn_promise{
+    position: absolute;
+    bottom: 0;
+    padding-left: 5%;
+    margin-bottom: 10px;
+}
+
+.ashlyn_sig{
+  font-family: Cherolina;
+  font-size: 50px;
+  font-weight: bold;
 }
