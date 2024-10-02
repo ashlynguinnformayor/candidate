@@ -8,32 +8,60 @@
   src:url(../fonts/Oswalk_v53.woff2);
 }
 
-h1{
+h1 {
   font-family: Oswalkd53;
   color:#1a2674;
   text-transform: uppercase;
 }
 
-h2{
+h2 {
   font-family: Oswalkd53;
   color: #1a2674;
   text-transform: uppercase;
 }
 
 
-h3{
+h3 {
   color: #d31145;
   text-transform: uppercase;
 }
 
+p {
+  line-height: 1.5;
+}
 
-
-#photoDiv{
-  background-image: linear-gradient(180deg, #1a2674 72%, #1a2674 100%);
+#photoDiv {
     border-width: 3px;
     border-color: #FFFFFF;
 }
 
 #photoDiv img {
     max-width: 95%;
+}
+
+#policies {
+    background-color: #1a2674;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#policies > .column {
+    flex-grow: 0;
+}
+
+#policiesHeader {
+  background-color: #1a2674;
+}
+
+#policiesHeader > h1 {
+  text-align: center;
+  color: #ffffff;
+  background-color: #1a2674;
+  margin: 0;
+  padding-top: 0.67em;
+  padding-bottom: 0.67em;
+}
+
+.support {
+  text-transform: none;
 }
