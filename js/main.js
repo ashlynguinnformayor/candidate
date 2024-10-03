@@ -1,5 +1,6 @@
 console.log("main");
 
+/*
 let ashlyn_promise=document.getElementById('ashlyn_promise');
 ashlyn_promise.addEventListener("click",function(){
   ashlyn_promise.style.visibility="hidden";
@@ -16,3 +17,5 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+*/
