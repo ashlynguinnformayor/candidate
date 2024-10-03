@@ -47,10 +47,19 @@ p {
 #photoDiv {
     border-width: 3px;
     border-color: #FFFFFF;
+    background-image: url("../img/ashlyn_main.jpg");
+    background-repeat: no-repeat;
+    padding: 0px;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-position-y: top;
+
 }
 
 #photoDiv img {
     max-width: 95%;
+
 }
 
 .policies {
