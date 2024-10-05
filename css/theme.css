@@ -100,12 +100,12 @@ p {
   text-align: center;
   max-height: 240px;
 }
-
+/*
 #policy_footer > .column {
     flex-grow: 1;
     height: 200px;
 }
-
+*/
 .support {
   text-transform: none;
 }
@@ -202,4 +202,10 @@ p {
 .social_icons svg{
   height:30px;
   width:30px;
+  /*fill: #1a2674;*/
+}
+
+.social_icons svg:hover{
+  fill: #313553;
+  stroke: #313553;
 }

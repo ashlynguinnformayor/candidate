@@ -30,7 +30,8 @@ header section{
 
 main section{
   background-color: #fff;
-  min-height: 500px;
+  /*min-height: 500px;*/
+  padding-bottom: 10px;
 }
 
 
