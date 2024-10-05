@@ -198,3 +198,8 @@ p {
 #disclaimer{
   color:red;
 }
+
+.social_icons svg{
+  height:30px;
+  width:30px;
+}
