@@ -48,7 +48,7 @@ p {
     border-width: 3px;
     border-color: #FFFFFF;
     background-image: url("../img/ashlyn_main.jpg");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     padding: 0px;
     background-size:     cover;
     background-repeat:   no-repeat;
@@ -146,7 +146,48 @@ p {
 
 }
 
+/**/
 
+#mobile_menu_section{
+  padding: 0px;
+  background-color: gray;
+}
+
+#mobile_menu_section .column{
+  padding: 0px;
+  background-color: gray;
+}
+
+
+#mobile_main_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a2674;
+  height:30px;
+}
+
+#mobile_main_menu ul li {
+  float: left;
+}
+
+#mobile_main_menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  border: solid 1px #1a2674;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mobile_main_menu ul li a:hover {
+  border: solid 1px #252525;
+  border-width: 1px 1px 0px 1px;
+  background-color: #313553;
+}
 
 /*
 #main_menu a{
