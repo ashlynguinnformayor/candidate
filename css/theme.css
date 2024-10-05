@@ -110,10 +110,45 @@ p {
   text-transform: none;
 }
 
-#main_menu{
-  text-align: center;
+
+#main_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a2674;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  max-width: 375px;
+  height:30px;
 }
 
+#main_menu ul li {
+  float: left;
+}
+
+#main_menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  border: solid 1px #1a2674;
+}
+
+#main_menu ul li a:hover {
+
+  border: solid 1px #252525;
+  border-width: 1px 1px 0px 1px;
+  background-color: #313553;
+
+}
+
+
+
+/*
 #main_menu a{
   background-color: #1a2674;
   color:#fff;
@@ -128,6 +163,7 @@ p {
   background-color: #313553;
   color:#fff;
 }
+*/
 
 #subline{
   font-family: AmandaBlack;
