@@ -42,3 +42,13 @@ footer section{
 button{
   cursor: pointer;
 }
+
+.endpoint-left{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.endpoint-right{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
