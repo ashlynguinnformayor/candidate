@@ -31,7 +31,8 @@
   <span class="social_icons" title="Follow on Twitter!">${icons.twitter_x}</span></a>
   <a href="https://www.facebook.com/share/xsGUASPPAAh5ve7x/?mibextid=LQQJ4d"  target="_blank">
   <span class="social_icons" title="Follow on Facebook!">${icons.facebook}</span></a>
-  <a title="Coming Soon!" onclick="alert('Coming Soon!')"><span class="social_icons">${icons.instagram}</span></a>
+  <a title="Follow on Instagram!" href="https://www.instagram.com/guinn_ashlyn/" target="_blank">
+  <span class="social_icons">${icons.instagram}</span></a>
   <a href="mailto:ashlynguinnformayor@gmail.com" title="Email Ashlyn"  target="_blank">
   <span class="social_icons">${icons.email}</span>
   </a>
