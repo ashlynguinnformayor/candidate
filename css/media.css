@@ -144,4 +144,8 @@
           display: none;
         }
 
+        #photoDiv{
+          min-height: 550px;
+        }
+
       }
