@@ -250,3 +250,15 @@ p {
   fill: #313553;
   stroke: #313553;
 }
+
+.social_icons img{
+  height:30px;
+  width:30px;
+}
+
+
+.btnLink{
+  background-color: #1a2674;
+  border-radius: 5px;
+  text-decoration: none;
+}
